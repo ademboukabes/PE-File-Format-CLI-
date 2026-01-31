@@ -2,9 +2,8 @@
 name = "pecli"
 version = "0.1.0"
 description = "A powerful CLI for PE file analysis and malware heuristics"
-authors = [
-    { name = "bks" }
-]
+authors =  { name = "adem boukabess" }
+
 dependencies = [
     "click>=8.1.7",
     "rich>=13.7.0",
