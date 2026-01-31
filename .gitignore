@@ -1,15 +1,24 @@
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Environments
 .env
 .venv
 venv/
 ENV/
+
+# Build artifacts
 build/
 dist/
 *.egg-info/
+
+# IDE / Editor
 .idea/
 .vscode/
 *.swp
+
+# PE samples (malware / binaries)
 samples/legit.exe
 samples/packed.exe
