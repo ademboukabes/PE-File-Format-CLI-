@@ -3,7 +3,7 @@ name = "pecli"
 version = "0.1.0"
 description = "A powerful CLI for PE file analysis and malware heuristics"
 authors = [
-    { name = "Antigravity", email = "antigravity@google.com" }
+    { name = "bks" }
 ]
 dependencies = [
     "click>=8.1.7",
