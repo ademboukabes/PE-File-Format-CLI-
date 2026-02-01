@@ -1,10 +1,10 @@
-# 🛠️ pecli - Portable Executable Analysis CLI
+#  pecli 
 
 `pecli` is a powerful, premium-styled command-line tool designed for deep analysis of Windows Portable Executable (PE) files. It is built for reverse engineers, malware analysts, and CTF players who need quick, actionable insights into binary files.
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 To install `pecli` locally in development mode:
 
@@ -20,7 +20,7 @@ Once installed, you can use the `pecli` command directly from your terminal.
 
 ---
 
-## 📖 Command Reference
+##  Command Reference
 
 ### 1️⃣ `pecli info` — The First Look
 **Goal**: Get a quick high-level overview of the binary.
@@ -81,20 +81,20 @@ pecli scan path/to/sample.exe --json > result.json
 
 ---
 
-## 🧪 Real-World Use Cases
+##  Real-World Use Cases
 
-### 🔍 Reverse Engineering
+###  Reverse Engineering
 Before diving into code, run `pecli info` and `pecli sections` to understand the layout and find where the actual code starts.
 
-### 😈 Malware Analysis
+###  Malware Analysis
 Detect loaders and droppers by running `pecli scan`. If you see a high score and APIs like `CreateProcessA` or `ShellExecuteA`, you know the binary is intended to launch other payloads.
 
-### 🚩 CTF (Capture The Flag)
+###  CTF (Capture The Flag)
 Quickly find hidden data in non-standard sections or identify if a challenge is just a UPX-packed executable that needs to be unpacked first.
 
 ---
 
-## 🏗 Project Structure
+##  Project Structure
 
 ```text
 pecli/
