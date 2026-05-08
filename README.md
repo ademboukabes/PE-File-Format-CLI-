@@ -1,4 +1,4 @@
-#  pecli 
+#  PEcli
 
 `pecli` is a powerful, premium-styled command-line tool designed for deep analysis of Windows Portable Executable (PE) files. It is built for reverse engineers, malware analysts, and CTF players who need quick, actionable insights into binary files.
 
