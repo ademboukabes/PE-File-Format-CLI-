@@ -13,7 +13,7 @@ def display_scan(file_path: str, as_json: bool):
     h = report["heuristics"]
 
     if as_json:
-        # Prepare a clean JSON report
+        # Prepare a clean JSON report:
         output = {
             "file": file_path,
             "entropy": report["entropy"],
