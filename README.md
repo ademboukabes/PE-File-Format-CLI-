@@ -94,7 +94,7 @@ Quickly find hidden data in non-standard sections or identify if a challenge is 
 
 ---
 
-##  Project Structure
+##  Project Structure:
 
 ```text
 pecli/
